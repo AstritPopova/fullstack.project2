@@ -1,0 +1,17 @@
+{
+  "name": "fs-project2",
+  "version": "1.0.1",
+  "description": "Full Stack Project 2 - coursework API, database and UI (with basic CRUD)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "dotenv": "^16.0.0"
+  }
+}

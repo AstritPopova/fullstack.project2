@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Full Stack Project 2 – Coursework App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <div>
+          <h1>Full Stack Project 2 – Coursework App</h1>
+          <p class="subtitle">
+            Simple full stack app for the course. The UI talks to the API
+            (<code>/api/health</code> and <code>/api/items</code>).
+          </p>
+        </div>
+        <span class="badge">Demo · In-memory</span>
+      </header>
+
+      <section class="layout">
+        <section class="card card--half">
+          <h2>Health Check</h2>
+          <p class="card-text">
+            Click the button to call <code>/api/health</code> and see the JSON
+            response from the server.
+          </p>
+          <button id="check-health">Check /api/health</button>
+          <pre id="health-result" class="result-box" aria-label="Health check result"></pre>
+        </section>
+
+        <section class="card card--half">
+          <h2>Items (course tasks)</h2>
+          <p class="card-text">
+            This list is stored in memory on the server. You can add, edit, mark
+            as done and delete items while the server is running.
+          </p>
+
+          <form id="new-item-form" autocomplete="off">
+            <input
+              id="new-item-input"
+              type="text"
+              placeholder="New item name"
+              required
+            />
+            <button type="submit">Add item</button>
+          </form>
+
+          <ul id="items-list" aria-label="Items list"></ul>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
