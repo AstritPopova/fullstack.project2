@@ -18,7 +18,7 @@ The goal was to build, secure and deploy a small full-stack application using:
 
 ---
 
-## 🧩 Features
+##  Features
 
 - Health Check endpoint: `GET /api/health`
 - CRUD API for items:
@@ -51,9 +51,9 @@ cd fullstack.project2
 copy .env.example .env    # Windows
 npm install
 npm run dev
+```
 
-
-## 🧠 Reflection 
+##  Reflection 
 
 During this project, I learned how to build a full-stack application from scratch and how the frontend communicates with the backend through API calls. I also practiced working with CRUD operations, routing in Express, and debugging typical issues in full-stack development.
 
