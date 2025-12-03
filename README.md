@@ -9,12 +9,12 @@ The goal was to build, secure and deploy a small full-stack application using:
 
 ---
 
-## 🔗 Live Links
+##  Live Links
 
 | Service | URL |
 |---------|-----|
-| 🌍 Live App (Render) | https://fullstack-project2-uves.onrender.com/ |
-| 📦 GitHub Repository | https://github.com/AstritPopova/fullstack.project2 |
+|  Live App (Render) | https://fullstack-project2-uves.onrender.com/ |
+|  GitHub Repository | https://github.com/AstritPopova/fullstack.project2 |
 
 ---
 
@@ -33,7 +33,7 @@ The goal was to build, secure and deploy a small full-stack application using:
 
 ---
 
-## 🖥️ Screenshots
+##  Screenshots
 
 ### UI View (Localhost)
 <img width="1900" height="924" alt="Screenshot 2025-12-03 174642" src="https://github.com/user-attachments/assets/971a00e8-4a74-4c10-b929-d32164c80a5f" />
@@ -43,7 +43,7 @@ The goal was to build, secure and deploy a small full-stack application using:
 
 ---
 
-## 🚀 Run Locally
+##  Run Locally
 
 ```bash
 git clone https://github.com/AstritPopova/fullstack.project2
@@ -51,3 +51,14 @@ cd fullstack.project2
 copy .env.example .env    # Windows
 npm install
 npm run dev
+
+---
+## Reflection 
+
+During this project, I learned how to build a full-stack application from scratch and how the frontend communicates with the backend through API calls. I also practiced working with CRUD operations, routing in Express, and debugging typical issues in full-stack development.
+
+One important learning point was understanding how to handle environment variables correctly. I used .env locally and did not expose secrets publicly on GitHub. On Render, I added environment variables securely through the dashboard, which helped me understand real deployment workflows used in companies.
+
+There were also some challenges during the work, for example connecting Git + GitHub correctly and making sure that .env was not committed to the repository. I solved these issues by checking error messages, trying different commands, and testing step by step. I also learned more about UI updates, DOM manipulation, and how to make changes appear instantly using fetch requests to the API.
+
+Overall, I feel that I have grown in understanding how web applications work from the browser to the server side. I am happy that I was able to deploy the project successfully and see my application live online. This project increased my confidence and was great real-world practice for future work.
