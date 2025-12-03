@@ -35,13 +35,11 @@ The goal was to build, secure and deploy a small full-stack application using:
 
 ## 🖥️ Screenshots
 
-👉 Add your screenshots under these:
-
 ### UI View (Localhost)
-*Add screenshot here*
+<img width="1900" height="924" alt="Screenshot 2025-12-03 174642" src="https://github.com/user-attachments/assets/971a00e8-4a74-4c10-b929-d32164c80a5f" />
 
 ### API Health Check
-*Add screenshot here*
+<img width="951" height="898" alt="Screenshot 2025-12-03 181041" src="https://github.com/user-attachments/assets/57faea4c-3d02-413d-8ad0-74c143b067bd" />
 
 ---
 
