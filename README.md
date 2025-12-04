@@ -15,6 +15,7 @@ The goal was to build, secure and deploy a small full-stack application using:
 |---------|-----|
 |  Live App (Render) | https://fullstack-project2-uves.onrender.com/ |
 |  GitHub Repository | https://github.com/AstritPopova/fullstack.project2 |
+| Video Link | https://video.laurea.fi/media/FullStack%20Project%202%20/0_anqcl2vl |
 
 ---
 
