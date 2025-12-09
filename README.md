@@ -9,29 +9,20 @@ The goal was to build, secure and deploy a small full-stack application using:
 
 ---
 
-<<<<<<< HEAD
-## Live Links
-=======
+
+
 ##  Live Links
->>>>>>> b3270dff07d5b3c0b36443815c5d594a7aa84b04
 
 | Service | URL |
 |---------|-----|
 |  Live App (Render) | https://fullstack-project2-uves.onrender.com/ |
 |  GitHub Repository | https://github.com/AstritPopova/fullstack.project2 |
-<<<<<<< HEAD
 | Video link | https://video.laurea.fi/media/FullStack%20Project%202%20/0_anqcl2vl |
 
----
-
-## Features
-=======
-| Video Link | https://video.laurea.fi/media/FullStack%20Project%202%20/0_anqcl2vl |
 
 ---
 
 ##  Features
->>>>>>> b3270dff07d5b3c0b36443815c5d594a7aa84b04
 
 - Health Check endpoint: `GET /api/health`
 - CRUD API for items:
