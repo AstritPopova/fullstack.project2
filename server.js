@@ -8,6 +8,7 @@ require('dotenv').config(); // Load variables from .env in local development
 
 const express = require('express');
 const path = require('path');
+const cors = require('cors');          // 🔹 NEW: import cors
 
 const app = express();
 
@@ -17,6 +18,9 @@ const PORT = process.env.PORT || 3000;
 // NOTE: DATABASE_URL is not used in this example, but we read it to show how env works.
 // In your own project you would use this to connect to a real database.
 const DATABASE_URL = process.env.DATABASE_URL || 'not-configured';
+
+// 🔹 NEW: enable CORS for all origins (ok for school project)
+app.use(cors());
 
 // Middleware to parse JSON bodies for API routes
 app.use(express.json());
