@@ -9,17 +9,29 @@ The goal was to build, secure and deploy a small full-stack application using:
 
 ---
 
+<<<<<<< HEAD
 ## Live Links
+=======
+##  Live Links
+>>>>>>> b3270dff07d5b3c0b36443815c5d594a7aa84b04
 
 | Service | URL |
 |---------|-----|
 |  Live App (Render) | https://fullstack-project2-uves.onrender.com/ |
 |  GitHub Repository | https://github.com/AstritPopova/fullstack.project2 |
+<<<<<<< HEAD
 | Video link | https://video.laurea.fi/media/FullStack%20Project%202%20/0_anqcl2vl |
 
 ---
 
 ## Features
+=======
+| Video Link | https://video.laurea.fi/media/FullStack%20Project%202%20/0_anqcl2vl |
+
+---
+
+##  Features
+>>>>>>> b3270dff07d5b3c0b36443815c5d594a7aa84b04
 
 - Health Check endpoint: `GET /api/health`
 - CRUD API for items:
@@ -34,19 +46,17 @@ The goal was to build, secure and deploy a small full-stack application using:
 
 ---
 
-## 🖥️ Screenshots
-
-👉 Add your screenshots under these:
+##  Screenshots
 
 ### UI View (Localhost)
-*Add screenshot here*
+<img width="1900" height="924" alt="Screenshot 2025-12-03 174642" src="https://github.com/user-attachments/assets/971a00e8-4a74-4c10-b929-d32164c80a5f" />
 
 ### API Health Check
-*Add screenshot here*
+<img width="951" height="898" alt="Screenshot 2025-12-03 181041" src="https://github.com/user-attachments/assets/57faea4c-3d02-413d-8ad0-74c143b067bd" />
 
 ---
 
-## 🚀 Run Locally
+##  Run Locally
 
 
 
@@ -56,3 +66,14 @@ cd fullstack.project2
 copy .env.example .env    # Windows
 npm install
 npm run dev
+```
+
+##  Reflection 
+
+During this project, I learned how to build a full-stack application from scratch and how the frontend communicates with the backend through API calls. I also practiced working with CRUD operations, routing in Express, and debugging typical issues in full-stack development.
+
+One important learning point was understanding how to handle environment variables correctly. I used .env locally and did not expose secrets publicly on GitHub. On Render, I added environment variables securely through the dashboard, which helped me understand real deployment workflows used in companies.
+
+There were also some challenges during the work, for example connecting Git + GitHub correctly and making sure that .env was not committed to the repository. I solved these issues by checking error messages, trying different commands, and testing step by step. I also learned more about UI updates, DOM manipulation, and how to make changes appear instantly using fetch requests to the API.
+
+Overall, I feel that I have grown in understanding how web applications work from the browser to the server side. I am happy that I was able to deploy the project successfully and see my application live online. This project increased my confidence and was great real-world practice for future work.
